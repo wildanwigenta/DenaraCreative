@@ -27,7 +27,7 @@ const ContactForm = () => {
     
     // Create WhatsApp message
     const message = `Halo Denara Creative,%0A%0ANama: ${formData.name}%0AEmail: ${formData.email}%0A%0APesan:%0A${formData.message}`;
-    const whatsappUrl = `https://wa.me/6281234567890?text=${message}`;
+    const whatsappUrl = `https://wa.me/6281377243047?text=${message}`;
     
     // Open WhatsApp
     window.open(whatsappUrl, '_blank');
@@ -39,7 +39,7 @@ const ContactForm = () => {
 
   const handleWhatsAppDirect = () => {
     const message = 'Halo%20Denara%20Creative,%20saya%20ingin%20konsultasi%20tentang%20layanan%20digitalisasi%20UMKM';
-    window.open(`https://wa.me/6281234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/6281377243047?text=${message}`, '_blank');
   };
 
   return (

@@ -228,7 +228,7 @@ export default function Portfolio() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Denara%20Creative,%20saya%20tertarik%20dengan%20portfolio%20Anda%20dan%20ingin%20konsultasi%20project"
+              href="https://wa.me/6281377243047?text=Halo%20Denara%20Creative,%20saya%20tertarik%20dengan%20portfolio%20Anda%20dan%20ingin%20konsultasi%20project"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center space-x-3 bg-white text-[#9B1B60] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"

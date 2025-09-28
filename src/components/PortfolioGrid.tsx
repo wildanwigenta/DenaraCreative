@@ -159,13 +159,13 @@ const PortfolioGrid = ({ items = defaultItems, showAll = false }: PortfolioGridP
       </div>
 
       {/* Load More Button */}
-      {!showAll && filteredItems.length > 6 && (
+      {/* {!showAll && filteredItems.length > 6 && (
         <div className="text-center">
           <button className="bg-[#9B1B60] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#7a1549] transition-colors duration-200">
             Lihat Semua Portfolio
           </button>
         </div>
-      )}
+      )} */}
 
       {/* Modal */}
       {selectedItem && (
@@ -205,7 +205,7 @@ const PortfolioGrid = ({ items = defaultItems, showAll = false }: PortfolioGridP
                 
                 <div className="flex gap-4">
                   <a
-                    href="https://wa.me/6281234567890?text=Halo%20Denara%20Creative,%20saya%20tertarik%20dengan%20portfolio%20ini"
+                    href="https://wa.me/6281377243047?text=Halo%20Denara%20Creative,%20saya%20tertarik%20dengan%20portfolio%20ini"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#9B1B60] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#7a1549] transition-colors duration-200"

@@ -17,7 +17,7 @@ const PricingCard = ({
   features,
   isPopular = false,
   ctaText = "Pilih Paket",
-  ctaLink = "https://wa.me/6281234567890?text=Halo%20Denara%20Creative,%20saya%20tertarik%20dengan%20paket"
+  ctaLink = "https://wa.me/6281377243047?text=Halo%20Denara%20Creative,%20saya%20tertarik%20dengan%20paket"
 }: PricingCardProps) => {
   return (
     <div className={`relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 ${

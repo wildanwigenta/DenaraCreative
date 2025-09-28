@@ -166,7 +166,7 @@ export default function Pricing() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/6281234567890?text=Halo%20Denara%20Creative!%20Saya%20ingin%20konsultasi%20gratis%20untuk%20menentukan%20paket%20yang%20tepat%20untuk%20bisnis%20saya."
+                href="https://wa.me/6281377243047?text=Halo%20Denara%20Creative!%20Saya%20ingin%20konsultasi%20gratis%20untuk%20menentukan%20paket%20yang%20tepat%20untuk%20bisnis%20saya."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 bg-white text-[#9B1B60] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-200"
@@ -264,7 +264,7 @@ export default function Pricing() {
                 </ul>
                 
                 <a
-                  href={`https://wa.me/6281234567890?text=Halo%20Denara%20Creative!%20Saya%20tertarik%20dengan%20layanan%20tambahan%20${addon.name}.%20Bisa%20tolong%20berikan%20informasi%20lebih%20detail?`}
+                  href={`https://wa.me/6281377243047?text=Halo%20Denara%20Creative!%20Saya%20tertarik%20dengan%20layanan%20tambahan%20${addon.name}.%20Bisa%20tolong%20berikan%20informasi%20lebih%20detail?`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-[#9B1B60] text-white py-3 rounded-lg font-semibold hover:bg-[#7a1549] transition-colors duration-200 text-center block"
@@ -376,7 +376,7 @@ export default function Pricing() {
           <div className="text-center mt-12">
             <p className="text-gray-600 mb-6">Masih ada pertanyaan lain?</p>
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Denara%20Creative!%20Saya%20memiliki%20beberapa%20pertanyaan%20seputar%20paket%20dan%20layanan%20yang%20tersedia."
+              href="https://wa.me/6281377243047?text=Halo%20Denara%20Creative!%20Saya%20memiliki%20beberapa%20pertanyaan%20seputar%20paket%20dan%20layanan%20yang%20tersedia."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-[#9B1B60] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#7a1549] transition-colors duration-200"
@@ -403,7 +403,7 @@ export default function Pricing() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Denara%20Creative!%20Saya%20siap%20untuk%20memulai%20digitalisasi%20UMKM%20saya.%20Bisa%20tolong%20bantu%20saya%20memilih%20paket%20yang%20tepat?"
+              href="https://wa.me/6281377243047?text=Halo%20Denara%20Creative!%20Saya%20siap%20untuk%20memulai%20digitalisasi%20UMKM%20saya.%20Bisa%20tolong%20bantu%20saya%20memilih%20paket%20yang%20tepat?"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-white text-[#9B1B60] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-200"

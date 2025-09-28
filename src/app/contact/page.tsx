@@ -87,7 +87,7 @@ export default function Contact() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/6281234567890?text=Halo%20Denara%20Creative!%20Saya%20ingin%20konsultasi%20gratis%20untuk%20digitalisasi%20UMKM%20saya."
+                href="https://wa.me/6281377243047?text=Halo%20Denara%20Creative!%20Saya%20ingin%20konsultasi%20gratis%20untuk%20digitalisasi%20UMKM%20saya."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 bg-white text-[#9B1B60] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-200"
@@ -98,7 +98,7 @@ export default function Contact() {
                 <span>Konsultasi Gratis</span>
               </a>
               <a
-                href="tel:+6281234567890"
+                href="tel:+6281377243047"
                 className="inline-flex items-center space-x-2 border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-[#9B1B60] transition-all duration-300"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -374,7 +374,7 @@ export default function Contact() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Denara%20Creative!%20Saya%20siap%20untuk%20memulai%20digitalisasi%20UMKM%20saya.%20Kapan%20bisa%20kita%20diskusi?"
+              href="https://wa.me/6281377243047?text=Halo%20Denara%20Creative!%20Saya%20siap%20untuk%20memulai%20digitalisasi%20UMKM%20saya.%20Kapan%20bisa%20kita%20diskusi?"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-white text-[#9B1B60] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-200"
