@@ -21,11 +21,13 @@ export const metadata: Metadata = {
   keywords: "jasa branding, website UMKM, social media management, fotografi produk, digitalisasi UMKM, desain kreatif",
   authors: [{ name: "Denara Creative Digital" }],
   viewport: "width=device-width, initial-scale=1",
-  // icons: {
-  // icon: [
-  //   { url: "/logo.png", type: "image/png", sizes: "32x32" },
-  //   ],
-  // },
+  icons: {
+  icon: "/favicon.ico",
+  shortcut: "/favicon.ico",
+  apple: "/favicon.ico",
+  },
+
+
   robots: "index, follow",
   openGraph: {
     title: "Denara Creative Digital - Jasa Kreatif & Digitalisasi UMKM",
@@ -42,9 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" className="scroll-smooth">
-      <head>
-        <link rel="icon" href="/logo.png" type="image/png" />
-      </head>
+ 
       <body
         className={`${inter.variable} ${poppins.variable} font-sans antialiased`}
       >
