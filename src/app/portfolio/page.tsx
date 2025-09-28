@@ -204,7 +204,7 @@ export default function Portfolio() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-600 mb-6 italic">"{testimonial.text}"</p>
+                <p className="text-gray-600 mb-6 italic">&quot;{testimonial.text}&quot;</p>
                 <div>
                   <div className="font-semibold text-gray-900">{testimonial.name}</div>
                   <div className="text-sm text-[#9B1B60]">{testimonial.business}</div>
