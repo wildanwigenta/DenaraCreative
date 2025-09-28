@@ -29,8 +29,8 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-[#9B1B60] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">D</span>
+              <div className="w-8 h-8 bg-[#ffe3f2] rounded-lg flex items-center justify-center">
+                <img  src="/logo.png" alt="Denara Creative Logo" className="w-6 h-6 object-contain" />
               </div>
               <span className="font-poppins font-bold text-xl">
                 Denara Creative
@@ -39,7 +39,7 @@ const Footer = () => {
             <p className="text-gray-400 text-sm mb-4">
               Membantu UMKM naik kelas dengan solusi digitalisasi yang kreatif dan profesional.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a
                 href="#"
                 className="text-gray-400 hover:text-[#9B1B60] transition-colors duration-200"
@@ -72,7 +72,7 @@ const Footer = () => {
                   <path d="M12.007 0C5.373 0 0 5.372 0 12.007s5.373 12.006 12.007 12.006 12.006-5.372 12.006-12.006S18.641.001 12.007.001zM8.672 18.816H5.745V8.652h2.927v10.164zM7.209 7.416c-.938 0-1.696-.758-1.696-1.696s.758-1.696 1.696-1.696 1.696.758 1.696 1.696-.758 1.696-1.696 1.696zM18.816 18.816h-2.927v-4.957c0-1.093-.02-2.498-1.522-2.498-1.522 0-1.755 1.189-1.755 2.416v5.039H9.685V8.652h2.808v1.389h.04c.391-.741 1.346-1.522 2.771-1.522 2.965 0 3.512 1.951 3.512 4.486v5.811z"/>
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}

@@ -120,7 +120,7 @@ const TestimonialCarousel = () => {
 
                   {/* Testimonial Text */}
                   <blockquote className="text-lg md:text-xl text-gray-700 leading-relaxed italic">
-                    "{testimonial.text}"
+                    &quot;{testimonial.text}&quot;
                   </blockquote>
 
                   {/* Author Info */}

@@ -231,7 +231,7 @@ export default function Testimonials() {
                   </div>
                 </div>
                 
-                <p className="text-gray-700 mb-6 italic">"{testimonial.text}"</p>
+                <p className="text-gray-700 mb-6 italic">&quot;{testimonial.text}&quot;</p>
                 
                 <div className="space-y-4">
                   <div>
