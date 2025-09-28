@@ -29,7 +29,7 @@ const Header = () => {
           <Link href="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-[#ffe3f1] rounded-lg flex items-center justify-center">
               {/* <span className="text-white font-bold text-lg">D</span> */}
-              // eslint-disable-next-line @next/next/no-img-element
+               {/* // eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/logo.png"
                 alt="Denara Creative Logo"

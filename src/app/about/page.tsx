@@ -103,7 +103,7 @@ export default function About() {
                 </p>
                 <p>
                   Dengan pengalaman lebih dari 5 tahun di industri kreatif dan digital marketing, 
-                  kami telah membantu ratusan UMKM untuk "naik kelas" melalui transformasi digital 
+                  kami telah membantu ratusan UMKM untuk &quot;naik kelas&quot; melalui transformasi digital 
                   yang tepat sasaran dan terjangkau.
                 </p>
                 <p>

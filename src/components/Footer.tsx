@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-[#ffe3f2] rounded-lg flex items-center justify-center">
-                // eslint-disable-next-line @next/next/no-img-element
+                {/* // eslint-disable-next-line @next/next/no-img-element */}
                 <img  src="/logo.png" alt="Denara Creative Logo" className="w-6 h-6 object-contain" />
               </div>
               <span className="font-poppins font-bold text-xl">
