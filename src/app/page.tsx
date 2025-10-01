@@ -13,12 +13,16 @@ const services = [
       </svg>
     ),
     title: "Branding & Desain Kreatif",
-    description: "Ciptakan identitas visual yang kuat dan memorable untuk bisnis UMKM Anda dengan desain logo, kemasan, dan materi promosi yang profesional.",
+    description: "Ciptakan identitas visual yang kuat dan memorable untuk bisnis Anda.",
     features: [
       "Desain Logo & Brand Identity",
+      "Brand Guidelines",
       "Kemasan Produk",
       "Materi Promosi (Flyer, Banner)",
-      "Brand Guidelines"
+      "Stationery Design",
+      "Merchandise Design",
+      "Desain Kaos",
+      "Desain Vector"
     ]
   },
   {

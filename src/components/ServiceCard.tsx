@@ -38,7 +38,7 @@ const ServiceCard = ({ icon, title, description, features, href = '/pricing', cl
 
         {/* CTA Button */}
         <div className="mt-6 pt-6 border-t border-gray-100">
-          <Link
+          {/* <Link
             href={href}
             className="inline-flex items-center justify-center w-full bg-[#9B1B60] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#7a1549] transition-colors duration-200 group"
           >
@@ -46,7 +46,7 @@ const ServiceCard = ({ icon, title, description, features, href = '/pricing', cl
             <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
