@@ -7,40 +7,53 @@ interface Testimonial {
   id: number;
   name: string;
   business: string;
-  image: string;
   rating: number;
   text: string;
   service: string;
 }
 
 const testimonials: Testimonial[] = [
-  {
-    id: 1,
-    name: "Sari Dewi",
-    business: "Warung Makan Sari Rasa",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
-    rating: 5,
-    text: "Denara Creative benar-benar membantu mengubah warung makan saya! Setelah dibuatkan website dan dikelola media sosialnya, pelanggan jadi lebih banyak. Desain logonya juga bagus banget, sekarang warung saya terlihat lebih profesional.",
-    service: "Branding & Website"
-  },
-  {
-    id: 2,
-    name: "Budi Santoso",
-    business: "Bengkel Motor Budi Jaya",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-    rating: 5,
-    text: "Pelayanan sangat memuaskan! Tim Denara Creative sangat memahami kebutuhan UMKM seperti saya. Website yang dibuat simple tapi efektif, dan harganya sangat terjangkau. Sekarang bengkel saya mudah ditemukan online.",
-    service: "Website & Digital Marketing"
-  },
-  {
-    id: 3,
-    name: "Rina Maharani",
-    business: "Toko Kue Rina Manis",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-    rating: 5,
-    text: "Foto produk kue-kue saya jadi terlihat sangat menarik setelah difoto oleh tim Denara Creative. Penjualan online meningkat drastis! Mereka juga membantu mengelola Instagram saya dengan konten yang kreatif dan engaging.",
-    service: "Fotografi & Social Media"
-  }
+ {
+  id: 1,
+  name: "Dewi Kartika",
+  business: "Warung Makan Sari Rasa",
+  rating: 5,
+  text: "Awalnya saya bingung cara promosi warung makan. Setelah dibantu Denara Creative bikin logo dan website sederhana, warung saya lebih dikenal. Sekarang banyak pelanggan pesan lewat online juga.",
+  service: "Branding & Website"
+},
+{
+  id: 2,
+  name: "Budi Santoso",
+  business: "Bengkel Motor Abdi Jaya",
+  rating: 4,
+  text: "Website yang dibuat cukup membantu, jadi orang gampang cari lokasi bengkel saya di Google. Harganya juga pas untuk usaha kecil. Ada beberapa bagian yang butuh penyesuaian, tapi timnya sigap bantu.",
+  service: "Website & Digital Marketing"
+},
+{
+  id: 3,
+  name: "Rina Maharani",
+  business: "Toko KueKU",
+  rating: 5,
+  text: "Foto kue-kue saya jadi kelihatan lebih profesional, cocok untuk dipajang di Instagram. Follower bertambah dan pesanan online juga naik. Timnya komunikatif dan ide kontennya kreatif.",
+  service: "Fotografi & Social Media"
+},
+{
+  id: 4,
+  name: "Andi Prasetyo",
+  business: "Laundry Fresh & Clean",
+  rating: 4,
+  text: "Promosi lewat sosial media yang dibuat Denara cukup membantu, pelanggan jadi tahu ada layanan antar jemput laundry. Desain brosurnya juga bagus, walaupun waktu pengerjaan agak molor sedikit.",
+  service: "Social Media & Desain Grafis"
+},
+{
+  id: 5,
+  name: "Maya Lestari",
+  business: "Butik Maya",
+  rating: 5,
+  text: "Saya suka sekali dengan hasil branding yang dibuat. Logo dan katalog produk terlihat elegan. Banyak pelanggan baru datang karena lihat postingan di Instagram yang dikelola tim Denara.",
+  service: "Branding & Social Media"
+}
+
 ];
 
 const TestimonialCarousel = () => {
@@ -125,15 +138,7 @@ const TestimonialCarousel = () => {
 
                   {/* Author Info */}
                   <div className="flex items-center space-x-4">
-                    <div className="relative w-16 h-16 rounded-full overflow-hidden">
-                      <Image
-                        src={testimonial.image}
-                        alt={testimonial.name}
-                        fill
-                        className="object-cover"
-                        sizes="64px"
-                      />
-                    </div>
+                    
                     <div>
                       <div className="font-semibold text-gray-900 text-lg">
                         {testimonial.name}
