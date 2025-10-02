@@ -343,7 +343,7 @@ export default function Testimonials() {
               <span>Konsultasi Gratis</span>
             </a>
             
-            <a
+            {/* <a
               href="/pricing"
               className="inline-flex items-center justify-center space-x-2 border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-[#9B1B60] transition-all duration-300"
             >
@@ -351,7 +351,8 @@ export default function Testimonials() {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
-            </a>
+            </a> */}
+
           </div>
         </div>
       </section>
