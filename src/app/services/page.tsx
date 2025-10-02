@@ -1,16 +1,12 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ServiceCard from '@/components/ServiceCard';
-
+import { Zap, DollarSign, Users, Headphones, Palette, Globe, Share2, Camera } from 'lucide-react';
 const services = [
   {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a4 4 0 004-4V5z" />
-      </svg>
-    ),
+    icon: <Palette className="w-8 h-8" />,
     title: "Branding & Desain Kreatif",
-    description: "Ciptakan identitas visual yang kuat dan memorable untuk bisnis UMKM Anda dengan desain logo, kemasan, dan materi promosi yang profesional.",
+    description: "Ciptakan identitas visual yang kuat dan memorable untuk bisnis Anda.",
     features: [
       "Desain Logo & Brand Identity",
       "Brand Guidelines",
@@ -23,89 +19,36 @@ const services = [
     ]
   },
   {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-      </svg>
-    ),
+    icon: <Globe className="w-8 h-8" />,
     title: "Website & Toko Online",
     description: "Bangun kehadiran digital yang kuat dengan website profesional dan toko online yang user-friendly untuk meningkatkan penjualan.",
     features: [
       "Website Company Profile",
       "Toko Online E-commerce",
       "Landing Page",
-      "Optimasi SEO Dasar",
-      "Responsive Design",
-      "Content Management System"
+      "Optimasi SEO Dasar"
     ]
   },
   {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2m-9 4v10a2 2 0 002 2h6a2 2 0 002-2V8M7 8h10M7 8L5 6m2 2l2-2m0 0l2 2m-2-2v4" />
-      </svg>
-    ),
+    icon: <Share2 className="w-8 h-8" />,
     title: "Social Media Management",
     description: "Kelola media sosial bisnis Anda dengan strategi konten yang tepat dan iklan digital yang efektif untuk menjangkau lebih banyak pelanggan.",
     features: [
       "Strategi Konten Media Sosial",
       "Manajemen Instagram & Facebook",
       "Digital Advertising",
-      "Analytics & Reporting",
-      "Content Creation",
-      "Community Management"
+      "Analytics & Reporting"
     ]
   },
   {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
-      </svg>
-    ),
+    icon: <Camera className="w-8 h-8" />,
     title: "Fotografi & Videografi",
     description: "Dokumentasikan produk dan layanan Anda dengan foto dan video berkualitas tinggi yang menarik dan profesional untuk keperluan marketing.",
     features: [
       "Fotografi Produk",
       "Video Promosi",
       "Content Creation",
-      "Editing Professional",
-      "Studio Photography",
-      "Event Documentation"
-    ]
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
-      </svg>
-    ),
-    title: "Digital Marketing",
-    description: "Tingkatkan visibilitas online dan jangkauan bisnis Anda dengan strategi digital marketing yang tepat sasaran dan terukur.",
-    features: [
-      "Google Ads Management",
-      "Facebook & Instagram Ads",
-      "Search Engine Optimization",
-      "Email Marketing",
-      "Influencer Marketing",
-      "Performance Analytics"
-    ]
-  },
-  {
-    icon: (
-      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-      </svg>
-    ),
-    title: "Konsultasi Bisnis Digital",
-    description: "Dapatkan panduan strategis untuk mengembangkan bisnis Anda di era digital dengan konsultasi dari ahli yang berpengalaman.",
-    features: [
-      "Analisis Bisnis Digital",
-      "Strategi Transformasi Digital",
-      "Market Research",
-      "Competitor Analysis",
-      "Business Plan Development",
-      "ROI Optimization"
+      "Editing Professional"
     ]
   }
 ];
