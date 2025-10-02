@@ -1,7 +1,8 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ServiceCard from '@/components/ServiceCard';
-import { Zap, DollarSign, Users, Headphones, Palette, Globe, Share2, Camera } from 'lucide-react';
+import { Palette, Globe, Share2, Camera } from 'lucide-react';
+
 const services = [
   {
     icon: <Palette className="w-8 h-8" />,
@@ -97,30 +98,30 @@ export default function Services() {
 
       {/* Services Grid */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 font-poppins mb-4">
-              Layanan Unggulan Kami
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Dari branding hingga digital marketing, kami menyediakan semua yang Anda butuhkan untuk sukses di era digital
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <ServiceCard
-                key={index}
-                icon={service.icon}
-                title={service.title}
-                description={service.description}
-                features={service.features}
-                className="animate-fade-in h-full"
-              />
-            ))}
-          </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-gray-900 font-poppins mb-4">
+            Layanan Unggulan Kami
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Dari branding hingga digital marketing, kami menyediakan semua yang Anda butuhkan untuk sukses di era digital
+          </p>
         </div>
-      </section>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {services.map((service, index) => (
+            <ServiceCard
+              key={index}
+              icon={service.icon}
+              title={service.title}
+              description={service.description}
+              features={service.features}
+              className="animate-fade-in h-full"
+            />
+          ))}
+        </div>
+      </div>
+    </section>
 
       {/* Process Section */}
       <section className="py-20 bg-gray-50">
