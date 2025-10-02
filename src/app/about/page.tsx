@@ -2,32 +2,34 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
 
-const teamMembers = [
-  {
-    name: "Sarah Wijaya",
-    position: "Creative Director",
-    description: "Berpengalaman 8+ tahun dalam branding dan desain kreatif",
-    image: "/team/sarah.jpg"
-  },
-  {
-    name: "Budi Santoso",
-    position: "Web Developer",
-    description: "Spesialis pengembangan website dan e-commerce",
-    image: "/team/budi.jpg"
-  },
-  {
-    name: "Maya Putri",
-    position: "Digital Marketing Specialist",
-    description: "Ahli strategi media sosial dan digital advertising",
-    image: "/team/maya.jpg"
-  },
-  {
-    name: "Andi Rahman",
-    position: "Photographer & Videographer",
-    description: "Profesional fotografi dan videografi produk",
-    image: "/team/andi.jpg"
-  }
-];
+import { CheckCircle, Sparkles, Handshake, BadgeDollarSign } from 'lucide-react';
+
+// const teamMembers = [
+//   {
+//     name: "Sarah Wijaya",
+//     position: "Creative Director",
+//     description: "Berpengalaman 8+ tahun dalam branding dan desain kreatif",
+//     image: "/team/sarah.jpg"
+//   },
+//   {
+//     name: "Budi Santoso",
+//     position: "Web Developer",
+//     description: "Spesialis pengembangan website dan e-commerce",
+//     image: "/team/budi.jpg"
+//   },
+//   {
+//     name: "Maya Putri",
+//     position: "Digital Marketing Specialist",
+//     description: "Ahli strategi media sosial dan digital advertising",
+//     image: "/team/maya.jpg"
+//   },
+//   {
+//     name: "Andi Rahman",
+//     position: "Photographer & Videographer",
+//     description: "Profesional fotografi dan videografi produk",
+//     image: "/team/andi.jpg"
+//   }
+// ];
 
 const values = [
   {
@@ -231,7 +233,7 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 font-poppins mb-4">
@@ -265,8 +267,9 @@ export default function About() {
               </div>
             ))}
           </div>
+          
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-[#9B1B60] to-[#7a1549] text-white">
