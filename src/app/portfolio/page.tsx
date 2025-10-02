@@ -2,13 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PortfolioGrid from '@/components/PortfolioGrid';
 
-const portfolioCategories = [
-  { id: 'all', name: 'Semua', count: 24 },
-  { id: 'branding', name: 'Branding', count: 8 },
-  { id: 'website', name: 'Website', count: 6 },
-  { id: 'social-media', name: 'Social Media', count: 5 },
-  { id: 'photography', name: 'Fotografi', count: 5 }
-];
+
 
 const achievements = [
   {
@@ -89,22 +83,6 @@ export default function Portfolio() {
                   {achievement.description}
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Portfolio Categories */}
-      <section className="py-8 bg-gray-50 border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-4">
-            {portfolioCategories.map((category) => (
-              <button
-                key={category.id}
-                className="px-6 py-3 bg-white text-gray-700 rounded-lg font-semibold hover:bg-[#9B1B60] hover:text-white transition-colors duration-200 shadow-sm"
-              >
-                {category.name} ({category.count})
-              </button>
             ))}
           </div>
         </div>
