@@ -3,9 +3,9 @@ import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
 
 const contactInfo = {
-  phone: "+62 812-3456-7890",
-  email: "hello@denaracreative.com",
-  address: "Jl. Kreatif Digital No. 123, Jakarta Selatan 12345",
+  phone: "+62 813-7724-3047",
+  email: "denaracreativedigital@gmail.com",
+  address: "Bantul, Yogyakarta, Indonesia",
   hours: "Senin - Jumat: 09:00 - 18:00 WIB"
 };
 
