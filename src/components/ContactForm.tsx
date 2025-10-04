@@ -158,7 +158,7 @@ const ContactForm = () => {
             </div>
             <div>
               <h4 className="font-semibold text-gray-900">Telepon</h4>
-              <p className="text-gray-600">+62 812-3456-7890</p>
+              <p className="text-gray-600">+62 813-7724-3047</p>
             </div>
           </div>
 
@@ -170,7 +170,7 @@ const ContactForm = () => {
             </div>
             <div>
               <h4 className="font-semibold text-gray-900">Email</h4>
-              <p className="text-gray-600">hello@denaracreative.com</p>
+              <p className="text-gray-600">denaracreativedigital@gmail.com</p>
             </div>
           </div>
 
@@ -183,7 +183,7 @@ const ContactForm = () => {
             </div>
             <div>
               <h4 className="font-semibold text-gray-900">Alamat</h4>
-              <p className="text-gray-600">Jakarta, Indonesia</p>
+              <p className="text-gray-600">Yogyakarta, Indonesia</p>
             </div>
           </div>
 
