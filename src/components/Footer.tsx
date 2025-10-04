@@ -16,7 +16,7 @@ const Footer = () => {
   ];
 
   const contact = [
-    { name: 'Pricing', href: '/pricing' },
+    // { name: 'Pricing', href: '/pricing' },
     { name: 'Contact', href: '/contact' },
     { name: 'Testimonials', href: '/testimonials' },
   ];
