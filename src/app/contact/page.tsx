@@ -1,7 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
-
 import { Instagram, Facebook, Youtube } from 'lucide-react';
 
 const contactInfo = {
