@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script'
+import AnalyticsProvider from './analytics-provider'
 
 const inter = Inter({
   variable: "--font-inter",
@@ -62,10 +63,9 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body
-        className={`${inter.variable} ${poppins.variable} font-sans antialiased`}
-      >
+      <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
         {children}
+        <AnalyticsProvider />
       </body>
     </html>
   );
