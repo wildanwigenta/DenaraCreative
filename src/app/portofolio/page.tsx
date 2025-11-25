@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import PortfolioGrid from '@/components/PortfolioGrid';
+import PortofolioGrid from '@/components/PortofolioGrid';
 
 
 
@@ -37,7 +37,7 @@ export default function Portofolio() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold font-poppins mb-6">
-              Portfolio Kami
+              Portofolio Kami
             </h1>
             <p className="text-xl text-gray-100 max-w-3xl mx-auto">
               Lihat hasil karya terbaik kami dalam membantu UMKM berkembang dan sukses di era digital
@@ -79,7 +79,7 @@ export default function Portofolio() {
             </p>
           </div>
 
-          <PortfolioGrid showAll={true} />
+          <PortofolioGrid showAll={true} />
         </div>
       </section>
 
