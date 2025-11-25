@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import ServiceCard from '@/components/ServiceCard';
 import TestimonialCarousel from '@/components/TestimonialCarousel';
-import PortfolioGrid from '@/components/PortofolioGrid';
+import PortofolioGrid from '@/components/PortofolioGrid';
 
 import { Zap, DollarSign, Users, Headphones, Palette, Globe, Share2, Camera } from 'lucide-react';
 
