@@ -2,8 +2,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PortofolioGrid from '@/components/PortofolioGrid';
 
-
-
 const achievements = [
   {
     number: "100+",
