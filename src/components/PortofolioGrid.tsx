@@ -77,7 +77,7 @@ const defaultItems: PortofolioItem[] = [
 
 const PortofolioGrid = ({ items = defaultItems, showAll = false }: PortofolioGridProps) => {
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedItem, setSelectedItem] = useState<PortfolioItem | null>(null);
+  const [selectedItem, setSelectedItem] = useState<PortofolioItem | null>(null);
 
   const categories = ['All', ...Array.from(new Set(items.map(item => item.category)))];
   
@@ -205,7 +205,7 @@ const PortofolioGrid = ({ items = defaultItems, showAll = false }: PortofolioGri
                 
                 <div className="flex gap-4">
                   <a
-                    href="https://wa.me/6281377243047?text=Halo%20Denara%20Creative,%20saya%20tertarik%20dengan%20portfolio%20ini"
+                    href="https://wa.me/6281377243047?text=Halo%20Denara%20Creative,%20saya%20tertarik%20dengan%20portofolio%20ini"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#9B1B60] text-white px-6 py-2 rounded-lg font-medium hover:bg-[#7a1549] transition-colors duration-200"
@@ -228,4 +228,4 @@ const PortofolioGrid = ({ items = defaultItems, showAll = false }: PortofolioGri
   );
 };
 
-export default PortfolioGrid;
+export default PortofolioGrid;
