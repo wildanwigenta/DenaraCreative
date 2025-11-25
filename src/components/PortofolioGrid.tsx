@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-interface PortfolioItem {
+interface PortofolioItem {
   id: number;
   title: string;
   category: string;
@@ -11,12 +11,12 @@ interface PortfolioItem {
   description: string;
 }
 
-interface PortfolioGridProps {
-  items?: PortfolioItem[];
+interface PortofolioGridProps {
+  items?: PortofolioItem[];
   showAll?: boolean;
 }
 
-const defaultItems: PortfolioItem[] = [
+const defaultItems: PortofolioItem[] = [
   {
     id: 1,
     title: "Branding Warung Makan Sederhana",
@@ -75,7 +75,7 @@ const defaultItems: PortfolioItem[] = [
   }
 ];
 
-const PortfolioGrid = ({ items = defaultItems, showAll = false }: PortfolioGridProps) => {
+const PortofolioGrid = ({ items = defaultItems, showAll = false }: PortofolioGridProps) => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [selectedItem, setSelectedItem] = useState<PortfolioItem | null>(null);
 
