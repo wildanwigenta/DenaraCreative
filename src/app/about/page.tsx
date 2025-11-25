@@ -203,7 +203,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 font-poppins mb-4">
-              Nilai-Nilai Kami
+              Nilai-Nilai Kami 
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Prinsip-prinsip yang menjadi fondasi dalam setiap layanan yang kami berikan
