@@ -27,7 +27,7 @@ const achievements = [
   }
 ];
 
-export default function Portfolio() {
+export default function Portofolio() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
