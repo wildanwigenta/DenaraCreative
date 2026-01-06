@@ -175,6 +175,7 @@ export default function Portofolio() {
       </section>
 
       <Footer />
+      
     </div>
   );
 }
