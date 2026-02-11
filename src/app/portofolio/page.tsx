@@ -24,7 +24,6 @@ const achievements = [
     description: "Berdasarkan feedback klien"
   }
 ];
-
 export default function Portofolio() {
   return (
     <div className="min-h-screen bg-gray-50">
